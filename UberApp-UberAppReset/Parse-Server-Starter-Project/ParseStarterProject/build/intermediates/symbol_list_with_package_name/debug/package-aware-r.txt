@@ -741,6 +741,7 @@ id FUNCTION
 id META
 id SHIFT
 id SYM
+id acceptRequestBtn
 id accessibility_action_clickable_span
 id accessibility_custom_action_0
 id accessibility_custom_action_1
@@ -830,6 +831,7 @@ id expand_activities_button
 id expanded_menu
 id forever
 id gone
+id googleMap
 id group_divider
 id groups
 id home
@@ -850,7 +852,7 @@ id line1
 id line3
 id listMode
 id list_item
-id map
+id logOut
 id message
 id middle
 id multiply
@@ -870,6 +872,7 @@ id progress_circular
 id progress_horizontal
 id radio
 id relativeLayout
+id requestListView
 id right
 id right_icon
 id right_side
@@ -976,8 +979,10 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_driver_location
 layout activity_main
 layout activity_rider
+layout activity_view_requests
 layout custom_dialog
 layout notification_action
 layout notification_action_tombstone

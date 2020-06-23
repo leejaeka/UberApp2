@@ -10,18 +10,18 @@
 9        android:targetSdkVersion="23" />
 9-->D:\Project\AndroidApps\UberApp\UberApp2\UberApp2\UberApp-UberAppReset\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml
 10
-11    <uses-permission android:name="android.permission.INTERNET" />
-11-->D:\Project\AndroidApps\UberApp\UberApp2\UberApp2\UberApp-UberAppReset\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:42:5-67
-11-->D:\Project\AndroidApps\UberApp\UberApp2\UberApp2\UberApp-UberAppReset\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:42:22-64
-12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-12-->D:\Project\AndroidApps\UberApp\UberApp2\UberApp2\UberApp-UberAppReset\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:43:5-79
-12-->D:\Project\AndroidApps\UberApp\UberApp2\UberApp2\UberApp-UberAppReset\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:43:22-76
-13    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-13-->D:\Project\AndroidApps\UberApp\UberApp2\UberApp2\UberApp-UberAppReset\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:44:5-80
-13-->D:\Project\AndroidApps\UberApp\UberApp2\UberApp2\UberApp-UberAppReset\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:44:22-77
+11    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+11-->D:\Project\AndroidApps\UberApp\UberApp2\UberApp2\UberApp-UberAppReset\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:54:5-79
+11-->D:\Project\AndroidApps\UberApp\UberApp2\UberApp2\UberApp-UberAppReset\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:54:22-76
+12    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+12-->D:\Project\AndroidApps\UberApp\UberApp2\UberApp2\UberApp-UberAppReset\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:55:5-80
+12-->D:\Project\AndroidApps\UberApp\UberApp2\UberApp2\UberApp-UberAppReset\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:55:22-77
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->D:\Project\AndroidApps\UberApp\UberApp2\UberApp2\UberApp-UberAppReset\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:56:5-67
+13-->D:\Project\AndroidApps\UberApp\UberApp2\UberApp2\UberApp-UberAppReset\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:56:22-64
 14    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-14-->D:\Project\AndroidApps\UberApp\UberApp2\UberApp2\UberApp-UberAppReset\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:46:5-79
-14-->D:\Project\AndroidApps\UberApp\UberApp2\UberApp2\UberApp-UberAppReset\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:46:22-76
+14-->D:\Project\AndroidApps\UberApp\UberApp2\UberApp2\UberApp-UberAppReset\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:58:5-79
+14-->D:\Project\AndroidApps\UberApp\UberApp2\UberApp2\UberApp-UberAppReset\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:58:22-76
 15
 16    <uses-feature
 16-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\tonyl\.gradle\caches\transforms-2\files-2.1\a839635d2d496b87b8285f48671776f3\jetified-play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
@@ -35,7 +35,7 @@
 22         location permissions for the "MyLocation" functionality.
 23    -->
 24    <application
-24-->D:\Project\AndroidApps\UberApp\UberApp2\UberApp2\UberApp-UberAppReset\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:10:5-41:19
+24-->D:\Project\AndroidApps\UberApp\UberApp2\UberApp2\UberApp-UberAppReset\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:10:5-53:19
 25        android:name="com.parse.starter.StarterApplication"
 25-->D:\Project\AndroidApps\UberApp\UberApp2\UberApp2\UberApp-UberAppReset\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:11:9-43
 26        android:allowBackup="true"
@@ -60,58 +60,75 @@
 40             You can define the keys for the debug and release targets in src/debug/ and src/release/.
 41        -->
 42        <activity
-42-->D:\Project\AndroidApps\UberApp\UberApp2\UberApp2\UberApp-UberAppReset\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:25:9-27:69
-43            android:name="com.parse.starter.RiderActivity"
-43-->D:\Project\AndroidApps\UberApp\UberApp2\UberApp2\UberApp-UberAppReset\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:26:13-42
-44            android:label="@string/title_activity_rider" />
-44-->D:\Project\AndroidApps\UberApp\UberApp2\UberApp2\UberApp-UberAppReset\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:27:13-57
-45        <activity
-45-->D:\Project\AndroidApps\UberApp\UberApp2\UberApp2\UberApp-UberAppReset\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:29:9-37:20
-46            android:name="com.parse.starter.MainActivity"
-46-->D:\Project\AndroidApps\UberApp\UberApp2\UberApp2\UberApp-UberAppReset\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:30:13-41
-47            android:label="@string/app_name" >
-47-->D:\Project\AndroidApps\UberApp\UberApp2\UberApp2\UberApp-UberAppReset\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:31:13-45
-48            <intent-filter>
-48-->D:\Project\AndroidApps\UberApp\UberApp2\UberApp2\UberApp-UberAppReset\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:32:13-36:29
-49                <action android:name="android.intent.action.MAIN" />
-49-->D:\Project\AndroidApps\UberApp\UberApp2\UberApp2\UberApp-UberAppReset\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:33:17-69
-49-->D:\Project\AndroidApps\UberApp\UberApp2\UberApp2\UberApp-UberAppReset\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:33:25-66
-50
-51                <category android:name="android.intent.category.LAUNCHER" />
-51-->D:\Project\AndroidApps\UberApp\UberApp2\UberApp2\UberApp-UberAppReset\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:35:17-77
-51-->D:\Project\AndroidApps\UberApp\UberApp2\UberApp2\UberApp-UberAppReset\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:35:27-74
-52            </intent-filter>
-53        </activity>
-54
-55        <meta-data
-55-->D:\Project\AndroidApps\UberApp\UberApp2\UberApp2\UberApp-UberAppReset\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:38:9-40:55
-56            android:name="com.google.android.geo.API_KEY"
-56-->D:\Project\AndroidApps\UberApp\UberApp2\UberApp2\UberApp-UberAppReset\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:39:13-58
-57            android:value="@string/google_maps_key" />
-57-->D:\Project\AndroidApps\UberApp\UberApp2\UberApp2\UberApp-UberAppReset\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:40:13-52
-58        <!-- Needs to be explicitly declared on P+ -->
-59        <uses-library
-59-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\tonyl\.gradle\caches\transforms-2\files-2.1\a839635d2d496b87b8285f48671776f3\jetified-play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
-60            android:name="org.apache.http.legacy"
-60-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\tonyl\.gradle\caches\transforms-2\files-2.1\a839635d2d496b87b8285f48671776f3\jetified-play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
-61            android:required="false" />
-61-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\tonyl\.gradle\caches\transforms-2\files-2.1\a839635d2d496b87b8285f48671776f3\jetified-play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
+42-->D:\Project\AndroidApps\UberApp\UberApp2\UberApp2\UberApp-UberAppReset\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:25:9-27:79
+43            android:name="com.parse.starter.DriverLocationActivity"
+43-->D:\Project\AndroidApps\UberApp\UberApp2\UberApp2\UberApp-UberAppReset\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:26:13-51
+44            android:label="@string/title_activity_driver_location" />
+44-->D:\Project\AndroidApps\UberApp\UberApp2\UberApp2\UberApp-UberAppReset\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:27:13-67
+45        <activity android:name="com.parse.starter.ViewRequestsActivity" />
+45-->D:\Project\AndroidApps\UberApp\UberApp2\UberApp2\UberApp-UberAppReset\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:29:9-58
+45-->D:\Project\AndroidApps\UberApp\UberApp2\UberApp2\UberApp-UberAppReset\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:29:19-55
+46        <activity
+46-->D:\Project\AndroidApps\UberApp\UberApp2\UberApp2\UberApp-UberAppReset\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:30:9-32:60
+47            android:name="com.parse.starter.RiderActivity"
+47-->D:\Project\AndroidApps\UberApp\UberApp2\UberApp2\UberApp-UberAppReset\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:31:13-42
+48            android:label="@string/title_activity_rider" />
+48-->D:\Project\AndroidApps\UberApp\UberApp2\UberApp2\UberApp-UberAppReset\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:32:13-57
+49        <!--
+50             The API key for Google Maps-based APIs is defined as a string resource.
+51             (See the file "res/values/google_maps_api.xml").
+52             Note that the API key is linked to the encryption key used to sign the APK.
+53             You need a different API key for each encryption key, including the release key that is used to
+54             sign the APK for publishing.
+55             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+56        -->
+57        <activity
+57-->D:\Project\AndroidApps\UberApp\UberApp2\UberApp2\UberApp-UberAppReset\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:41:9-49:20
+58            android:name="com.parse.starter.MainActivity"
+58-->D:\Project\AndroidApps\UberApp\UberApp2\UberApp2\UberApp-UberAppReset\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:42:13-41
+59            android:label="@string/app_name" >
+59-->D:\Project\AndroidApps\UberApp\UberApp2\UberApp2\UberApp-UberAppReset\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:43:13-45
+60            <intent-filter>
+60-->D:\Project\AndroidApps\UberApp\UberApp2\UberApp2\UberApp-UberAppReset\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:44:13-48:29
+61                <action android:name="android.intent.action.MAIN" />
+61-->D:\Project\AndroidApps\UberApp\UberApp2\UberApp2\UberApp-UberAppReset\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:45:17-69
+61-->D:\Project\AndroidApps\UberApp\UberApp2\UberApp2\UberApp-UberAppReset\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:45:25-66
 62
-63        <activity
-63-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\tonyl\.gradle\caches\transforms-2\files-2.1\6a27f052584ba14e1bf3f0754d910342\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
-64            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-64-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\tonyl\.gradle\caches\transforms-2\files-2.1\6a27f052584ba14e1bf3f0754d910342\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
-65            android:exported="false"
-65-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\tonyl\.gradle\caches\transforms-2\files-2.1\6a27f052584ba14e1bf3f0754d910342\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
-66            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-66-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\tonyl\.gradle\caches\transforms-2\files-2.1\6a27f052584ba14e1bf3f0754d910342\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
-67
-68        <meta-data
-68-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\tonyl\.gradle\caches\transforms-2\files-2.1\85cfff5691f363e5417071a3d3b6c15f\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
-69            android:name="com.google.android.gms.version"
-69-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\tonyl\.gradle\caches\transforms-2\files-2.1\85cfff5691f363e5417071a3d3b6c15f\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
-70            android:value="@integer/google_play_services_version" />
-70-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\tonyl\.gradle\caches\transforms-2\files-2.1\85cfff5691f363e5417071a3d3b6c15f\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
-71    </application>
-72
-73</manifest>
+63                <category android:name="android.intent.category.LAUNCHER" />
+63-->D:\Project\AndroidApps\UberApp\UberApp2\UberApp2\UberApp-UberAppReset\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:47:17-77
+63-->D:\Project\AndroidApps\UberApp\UberApp2\UberApp2\UberApp-UberAppReset\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:47:27-74
+64            </intent-filter>
+65        </activity>
+66
+67        <meta-data
+67-->D:\Project\AndroidApps\UberApp\UberApp2\UberApp2\UberApp-UberAppReset\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:50:9-52:55
+68            android:name="com.google.android.geo.API_KEY"
+68-->D:\Project\AndroidApps\UberApp\UberApp2\UberApp2\UberApp-UberAppReset\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:51:13-58
+69            android:value="@string/google_maps_key" />
+69-->D:\Project\AndroidApps\UberApp\UberApp2\UberApp2\UberApp-UberAppReset\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:52:13-52
+70        <!-- Needs to be explicitly declared on P+ -->
+71        <uses-library
+71-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\tonyl\.gradle\caches\transforms-2\files-2.1\a839635d2d496b87b8285f48671776f3\jetified-play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
+72            android:name="org.apache.http.legacy"
+72-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\tonyl\.gradle\caches\transforms-2\files-2.1\a839635d2d496b87b8285f48671776f3\jetified-play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
+73            android:required="false" />
+73-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\tonyl\.gradle\caches\transforms-2\files-2.1\a839635d2d496b87b8285f48671776f3\jetified-play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
+74
+75        <activity
+75-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\tonyl\.gradle\caches\transforms-2\files-2.1\6a27f052584ba14e1bf3f0754d910342\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+76            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+76-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\tonyl\.gradle\caches\transforms-2\files-2.1\6a27f052584ba14e1bf3f0754d910342\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+77            android:exported="false"
+77-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\tonyl\.gradle\caches\transforms-2\files-2.1\6a27f052584ba14e1bf3f0754d910342\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+78            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+78-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\tonyl\.gradle\caches\transforms-2\files-2.1\6a27f052584ba14e1bf3f0754d910342\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+79
+80        <meta-data
+80-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\tonyl\.gradle\caches\transforms-2\files-2.1\85cfff5691f363e5417071a3d3b6c15f\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+81            android:name="com.google.android.gms.version"
+81-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\tonyl\.gradle\caches\transforms-2\files-2.1\85cfff5691f363e5417071a3d3b6c15f\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+82            android:value="@integer/google_play_services_version" />
+82-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\tonyl\.gradle\caches\transforms-2\files-2.1\85cfff5691f363e5417071a3d3b6c15f\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+83    </application>
+84
+85</manifest>

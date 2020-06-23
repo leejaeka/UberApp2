@@ -7,6 +7,7 @@ import androidx.fragment.app.FragmentActivity;
 
 import android.Manifest;
 import android.content.Context;
+import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.location.Location;
 import android.location.LocationListener;
@@ -41,6 +42,11 @@ public class RiderActivity extends FragmentActivity implements OnMapReadyCallbac
     LocationListener locationListener;
     Button callBtn;
     Boolean requestActive= false;
+    public void logOut(View view){
+        ParseUser.logOut();
+        Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+        startActivity(intent);
+    }
     public void callRide(View view){
 
         if (requestActive){
@@ -94,7 +100,7 @@ public class RiderActivity extends FragmentActivity implements OnMapReadyCallbac
         setContentView(R.layout.activity_rider);
         // Obtain the SupportMapFragment and get notified when the map is ready to be used.
         SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()
-                .findFragmentById(R.id.map);
+                .findFragmentById(R.id.googleMap);
         mapFragment.getMapAsync(this);
         callBtn = (Button) findViewById(R.id.callRideBtn);
 //        ParseQuery<ParseObject> query = new ParseQuery<ParseObject>("Request");
