@@ -1,0 +1,7 @@
+#Mon Jun 22 17:43:23 PDT 2020
+base.0=D\:\\Project\\AndroidApps\\UberApp\\UberApp2\\UberApp2\\UberApp-UberAppReset\\Parse-Server-Starter-Project\\ParseStarterProject\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+path.1=classes.dex
+renamed.1=classes2.dex
+path.0=classes.dex
+renamed.0=classes.dex
+base.1=D\:\\Project\\AndroidApps\\UberApp\\UberApp2\\UberApp2\\UberApp-UberAppReset\\Parse-Server-Starter-Project\\ParseStarterProject\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\classes.dex
