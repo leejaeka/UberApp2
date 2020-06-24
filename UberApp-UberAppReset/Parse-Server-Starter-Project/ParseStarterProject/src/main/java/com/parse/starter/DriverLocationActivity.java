@@ -72,21 +72,22 @@ public class DriverLocationActivity extends FragmentActivity implements OnMapRea
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_driver_location);
-
+        final Intent intent = getIntent();
         // Obtain the SupportMapFragment and get notified when the map is ready to be used.
         SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()
                 .findFragmentById(R.id.googleMap);
         mapFragment.getMapAsync(this);
         RelativeLayout mapLayout = findViewById(R.id.relativeLayout);
-        final Intent intent = getIntent();
+
         mapLayout.getViewTreeObserver().addOnGlobalLayoutListener(new ViewTreeObserver.OnGlobalLayoutListener() {
 
 
             @Override
             public void onGlobalLayout() {
-
-                LatLng driverLocation = new LatLng(intent.getDoubleExtra("driverLatitude", 0), intent.getDoubleExtra("driverLongitude",0));
-                LatLng requestLocation = new LatLng(intent.getDoubleExtra("requestLatitude", 0), intent.getDoubleExtra("requestLongitude",0));
+                //mMap = new GoogleMap();
+                if (mMap != null){
+                    LatLng driverLocation = new LatLng(intent.getDoubleExtra("driverLatitude", 0), intent.getDoubleExtra("driverLongitude",0));
+                    LatLng requestLocation = new LatLng(intent.getDoubleExtra("requestLatitude", 0), intent.getDoubleExtra("requestLongitude",0));
 
 
                     markers.add(mMap.addMarker(new MarkerOptions().position(driverLocation).title("Your location")));
@@ -96,11 +97,13 @@ public class DriverLocationActivity extends FragmentActivity implements OnMapRea
                         builder.include(marker.getPosition());
                     }
                     LatLngBounds bounds = builder.build();
-                    int padding = 30; // offset from edges of the map in pixels
+                    int padding = 60; // offset from edges of the map in pixels
                     CameraUpdate cu = CameraUpdateFactory.newLatLngBounds(bounds, padding);
                     mMap.animateCamera(cu);
 
-                //mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(driverLocation,15));
+                    //mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(driverLocation,15));
+                }
+
             }
         });
     }
@@ -117,7 +120,7 @@ public class DriverLocationActivity extends FragmentActivity implements OnMapRea
     @Override
     public void onMapReady(GoogleMap googleMap) {
         mMap = googleMap;
-        //intent = getIntent();
+        intent = getIntent();
 
 
     }

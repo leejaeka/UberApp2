@@ -37,4 +37,9 @@
         android:onClick="logOut"
         android:text="Logout" />
 
+    <TextView
+        android:id="@+id/infoTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
 </RelativeLayout>
